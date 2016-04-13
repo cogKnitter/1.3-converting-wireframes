@@ -12,26 +12,26 @@
           <ul class="listOfSocialMediaLinks">
             <li class="socialMediaLink"></li>
             <li class="socialMediaLink"></li>
-            <li class="socialMediaLink" ></li>
-            <li class="socialMediaLink" ></li>
+            <li class="socialMediaLink"></li>
+            <li class="socialMediaLink"></li>
           </ul>
         </nav>
         <!-- This is for the nav bar at the beginning of the page  -->
         <nav class="navMenuBar">
           <ul class="navLinks">
-            <li class="home"> Home</li>
-            <li class="news"> News</li>
-            <li class="about"> About</li>
-            <li class="photos"> Photos</li>
+            <li class="home"> Home </li>
+            <li class="news"> News </li>
+            <li class="about"> About </li>
+            <li class="photos"> Photos </li>
           </ul>
         </nav>
       </header>
       <!-- Maybe I did this carousel correctly, I think it needs some CSS I reviewed the info at http://www.w3schools.com/bootstrap/bootstrap_carousel.asp and only looked at the HTML-->
       <div  class="image-carousel">
         <ol>
-          <li class="image"><img src="coolthing.jpg" alt="the first image on the carousel" /></li>
-          <li class="image"><img src="coolerthing.jpg" alt="the second image on the carousel" /></li>
-          <li class="image"><img src="evencoolthing.jpg" alt="the third image on the carousel" /></li>
+          <li class="image"><img src="coolthing.jpg" alt="the first image on the carousel"/></li>
+          <li class="image"><img src="coolerthing.jpg" alt="the second image on the carousel"/></li>
+          <li class="image"><img src="evencoolthing.jpg" alt="the third image on the carousel"/></li>
         </ol>
         </div>
         <!-- These are the points that indicate what image of the carousel is being displayed -->
@@ -47,7 +47,7 @@
             <h2> Article title # 1 </h2>
             <p> First few lines of the article will show up here
             </p>
-            <a class="articleLink" href="http://www.article1.com" > Read More</a>
+            <a class="articleLink" href="http://www.article1.com"> Read More</a>
           </article>
           <article class="article2">
             <h2> Article title # 2 </h2>
@@ -63,11 +63,11 @@
           </article>
 
           <!-- This is where the image block begins -->
-          <img src="octopus.jpg" alt="octopus" />
-          <img src="cuttlefish.jpg" alt="cuttlefish" />
-          <img src="squid.jpg" alt="squid" />
-          <img src="nautilis.jpg" alt="nautilis" />
-          <img src="ammonite.jpg" alt="ammonite" />
+          <img src="octopus.jpg" alt="octopus"/>
+          <img src="cuttlefish.jpg" alt="cuttlefish"/>
+          <img src="squid.jpg" alt="squid"/>
+          <img src="nautilis.jpg" alt="nautilis"/>
+          <img src="ammonite.jpg" alt="ammonite"/>
           <!-- The images still need to have sizes and alignment added -->
 
           <!-- This is the contact us section at the bottom of the page -->
@@ -86,9 +86,18 @@
             </nav>
             <!-- Found form info at http://www.w3schools.com/tags/tag_form.asp -->
             <form action="contactForm" method="get">
-              Name: <input type="text" name="name">
-              Email: <input type="text" name="email">
-              Text: <input type="text" name="textComment">
+              <label>
+                Name:
+                <input type="text" name="name">
+              </label>
+              <label>
+                Email:
+                <input type="text" name="email">
+              </label>
+              <label>
+                Text: 
+                <input type="text" name="textComment">
+              </label>
               <input type="submit" name="submit" value="submit">
             </form>
           </div>
