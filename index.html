@@ -9,80 +9,79 @@
       <header>
         <!-- This is for the social media links -->
         <nav class="socialMediaLinks">
-          <ul class="listOfSocialMediaLinks">
-            <li class="socialMediaLink"></li>
-            <li class="socialMediaLink"></li>
-            <li class="socialMediaLink"></li>
-            <li class="socialMediaLink"></li>
-          </ul>
+          <a href="#facebook"></a>
+          <a href="#twitter"></a>
+          <a href="#youtube"></a>
+          <a href="#googlePlus"></a>
         </nav>
         <!-- This is for the nav bar at the beginning of the page  -->
         <nav class="navMenuBar">
-          <ul class="navLinks">
-            <li class="home"> Home </li>
-            <li class="news"> News </li>
-            <li class="about"> About </li>
-            <li class="photos"> Photos </li>
-          </ul>
+          <a href="#home"> Home </a>
+          <a href="#news"> News </a>
+          <a href="#about"> About </a>
+          <a href="#photos"> Photos </a>
         </nav>
       </header>
       <!-- Maybe I did this carousel correctly, I think it needs some CSS I reviewed the info at http://www.w3schools.com/bootstrap/bootstrap_carousel.asp and only looked at the HTML-->
-      <div  class="image-carousel">
+      <main>
         <ol>
           <li class="image"><img src="coolthing.jpg" alt="the first image on the carousel"/></li>
           <li class="image"><img src="coolerthing.jpg" alt="the second image on the carousel"/></li>
           <li class="image"><img src="evencoolthing.jpg" alt="the third image on the carousel"/></li>
         </ol>
-        </div>
-        <!-- These are the points that indicate what image of the carousel is being displayed -->
-        <div  class="carousel-indicator">
-          <ol>
-            <li class="indicator"></li>
-            <li class="indicator"></li>
-            <li class="indicator"></li>
-          </ol>
-          </div>
-          <!--These are the 3 articles underneath the carousel -->
+        <!-- These are the points that indicate what image of the carousel is being displayed * Jason says to make them links- so not a list -->
+
+          <nav>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+          </nav>
+        </main>
+        <!-- end carousel-->
+        <!--These are the 3 articles underneath the carousel -->
+        <section>
+
+
           <article class="article1">
             <h2> Article title # 1 </h2>
+            <time></time>
             <p> First few lines of the article will show up here
             </p>
-            <a class="articleLink" href="http://www.article1.com"> Read More</a>
+            <a class="articleLink" href="http://www.article1.com"> Read More </a>
           </article>
           <article class="article2">
             <h2> Article title # 2 </h2>
             <p> First few lines of the article will show up here
             </p>
-            <a class="articleLink" href="http://www.article2.com"> Read More</a>
+            <a class="articleLink" href="http://www.article2.com"> Read More </a>
           </article>
           <article class="article3">
             <h2> Article title # 3 </h2>
             <p> First few lines of the article will show up here
             </p>
-            <a class="articleLink" href="http://www.article3.com"> Read More</a>
+            <a class="articleLink" href="http://www.article3.com"> Read More </a>
           </article>
+        </section>
 
           <!-- This is where the image block begins -->
-          <img src="octopus.jpg" alt="octopus"/>
-          <img src="cuttlefish.jpg" alt="cuttlefish"/>
-          <img src="squid.jpg" alt="squid"/>
-          <img src="nautilis.jpg" alt="nautilis"/>
-          <img src="ammonite.jpg" alt="ammonite"/>
-          <!-- The images still need to have sizes and alignment added -->
-
+        <section class="imageSection">
+          <a href="#"><img src="octopus.jpg" alt="octopus"/></a>
+          <a href="#"><img src="cuttlefish.jpg" alt="cuttlefish"/></a>
+          <a href="#"><img src="squid.jpg" alt="squid"/></a>
+          <a href="#"><img src="nautilis.jpg" alt="nautilis"/></a>
+          <a href="#"><img src="ammonite.jpg" alt="ammonite"/></a>
+      </section>
+      <!-- The images still need to have sizes and alignment added -->
           <!-- This is the contact us section at the bottom of the page -->
-          <div class="contactForm">
+          <footer>
             <h2>Contact us for more information</h2>
-            <p>
-              words words and more words
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <nav class="socialMediaLinks">
-              <ul class="listOfSocialMediaLinks">
-                <li class="socialMediaLink"></li>
-                <li class="socialMediaLink"></li>
-                <li class="socialMediaLink" ></li>
-                <li class="socialMediaLink" ></li>
-              </ul>
+              <a href="#facebook"></a>
+              <a href="#twitter"></a>
+              <a href="#youtube"></a>
+              <a href="#googlePlus"></a>
             </nav>
             <!-- Found form info at http://www.w3schools.com/tags/tag_form.asp -->
             <form action="contactForm" method="get">
@@ -92,12 +91,12 @@
               </label>
               <label>
                 Email:
-                <input type="text" name="email">
+                <input type="email" name="email">
               </label>
               <label>
-                Text: 
-                <input type="text" name="textComment">
+                Text:
+                <textarea type="textarea" name="text"></textarea>
               </label>
-              <input type="submit" name="submit" value="submit">
+              <input type="submit" name="submit" value="SUBMIT">
             </form>
-          </div>
+          </footer>
